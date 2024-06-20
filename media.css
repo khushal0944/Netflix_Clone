@@ -1,0 +1,288 @@
+@media screen and (min-width : 2560px){
+    *{
+        font-size: 20px;
+    }
+    #main1box{
+        min-height : 30vw;
+    }
+    .margin{
+        margin: 0 250px;
+    }
+    #logoImage{
+        width : 250px;
+    }
+    #language{
+        font-size: 30px;
+        height : 50px;
+        width : 200px;
+    }
+    .translatebox{
+        position: relative;
+    }
+    #signIn{
+        height : 50px;
+        width : 120px;
+        font-size: 30px;
+    }
+    
+    #maincontent{
+        width: 68%;
+        margin: auto;
+        margin-top: 50px;
+        height: 70%;
+    }
+    #email2{
+        width : 10%;
+    }
+    #faqBox h1{
+        margin-top: 20px;
+    }
+    .icon{
+        font-size: 1.6rem;
+        position: absolute;
+        top : -5px;
+        left: 13px;
+    }
+    .selecticon{
+        position: absolute;
+        font-size: 1.5rem;
+        top : 5px;
+    }
+}
+
+/* @media screen and (min-width : 425px){
+    
+    html,body{
+        width: 100vw;
+        background-color: #fff;
+    }
+    #main1box{
+        min-width: 100vw;
+    }
+}*/
+
+@media screen  and (max-width : 500px){
+    html{
+        font-size: 13px;
+    }
+    #logoImage{
+        width: 107px;
+    }
+    .margin{
+        margin: 0 5px;
+    }
+    #maincontent{
+        /* margin: auto; */
+        margin-top: 80px;
+    }
+    #submitemail1{
+        padding-right: 25px;
+        padding-left: 8px;
+        /* min-width: 20%; */
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .inputmail{
+        font-size: 1.2rem;
+    }
+    #main2box{
+        width:100%;
+        padding:30px 10px;
+    }
+    #main2box-box1{
+        width:100%;
+        padding: 0 25px;
+    }
+    #main2box-box2 img{
+        height: 255px;
+        width: 100%;
+    }
+    
+    .line{
+        width : 151%;
+    }
+    #main3box{
+        width: 151%;
+        padding: 30px 10px;
+    }
+    #main3box-box1{
+        width: 479px;
+    }
+    #box-downloading{
+        position: absolute;
+        top: 68%;
+        background-color: black;
+        padding: 10px;
+        height: 95px;
+    }
+    #box-downloading img {
+        width: 60px;
+    }
+    #main3box-box2{
+        width: 100%;
+    }
+    #main4box{
+        width:151%;
+        padding:30px 10px;
+    }
+    #main4box-box1{
+        width:100%;
+    }
+    #main4box-box2 img{
+        height: 356px;
+    }
+    #main4box-box2 video{
+        left: 42px;
+        top: 33px;
+        height: 167px;
+    }
+    #main5box{
+        width: 151%;
+        padding: 30px 10px;
+    }
+    #main5box-box1{
+        width: 479px;
+    }
+    #main5box-box1 img{
+        width: 479px;
+    }
+    #main5box-box2{
+        width: 100%;
+    }
+    #faqBox{
+        width: 151%;
+    }
+}
+
+@media screen and (min-width : 500px) and (max-width:1024px) {
+    html{
+        font-size: 14px;
+    }
+    .margin{
+        margin: 0 20px;
+        margin-bottom: 100px;
+    }
+    #maincontent{
+        /* position: relative;
+        left: 25%; */
+        margin: auto;
+    }
+    .inputmail{
+        width: 45%;
+    }
+    #submitemail1{
+        width: 128px;
+        font-size: 1.2rem;
+        top: 0px;
+        /* padding-left: 5px; */
+    }
+    #submitemail2{
+        width: 128px;
+        font-size: 1.2rem;
+        top: 1px;
+        /* padding-left: 5px; */
+    }
+    #main2box-box1{
+        width: 95%;
+        text-align: center;
+    }
+    #main3box-box2{
+        width: 95%;
+        text-align: center;
+    }
+    #main4box-box1{
+        width: 95%;
+        text-align: center;
+    }
+    #main5box-box2{
+        width: 95%;
+        text-align: center;
+    }
+    img{
+        width: 550px;
+    }
+    #main2box-box2 video {
+        width: 350px;
+        left: 63px;
+        top: 76px;
+    }
+    #main4box-box2 video {
+        left: 93px;
+        top: 37px;
+        width: 291px;
+    }
+    #main5box-box1 img {
+        width: 433px;
+    }
+    #main5box-box2 p {
+        margin-bottom: 20px;
+    }
+    .margin-para{
+        margin-top: 10px;
+    }
+    #faqBox h1{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    #gridlinks{
+        grid-template-columns: auto auto;
+    }
+    #box-downloading{
+        top : 65%;
+    }
+}
+
+@media (min-width : 560px) and (max-width : 1024px) {
+    #main2box-box2 video {
+        width: 403px !important; 
+        left: 72px !important;
+        top: 84px !important;
+    }
+}
+
+@media screen and (max-width:560px) {
+    html{
+        font-size: 14px;
+    }
+    .inputmail {
+        width: 55%;
+        margin-right: 2px;
+    }
+    #maincontent{
+        width : 100%;
+    }
+    .margin{
+        margin-bottom: 60px;
+    }
+    #main2box {
+        padding: 30px 15px;
+    }
+    #box-downloading{
+            top: 65%;
+            left: 24%;
+            width: 52%;
+    }
+    #box-downloading img {
+        width: 62px;
+    }
+    #main3box {
+        padding: 30px 15px;
+    }
+    #main4box {
+        padding: 30px 15px;
+    }
+    #main5box {
+        padding: 30px 15px;
+    }
+    img{
+        width : 480px;
+    }
+    #main5box-box2 {
+        padding: 0 3px;
+        width: 100%;
+    }
+}
